@@ -5,7 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#3F88D0"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:id="@+id/main"
+    >
     
     <!--หน้าจอแสดงผล-->
     <TextView
@@ -135,7 +137,7 @@
                 android:text="6"
                 android:layout_margin="4dp"/>
             <Button
-                android:id="@+id/bthn."
+                android:id="@+id/bthminus_sign"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -206,7 +208,7 @@
                 android:text="0"
                 android:layout_margin="4dp"/>
             <Button
-                android:id="@+id/btho."
+                android:id="@+id/btho_"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
